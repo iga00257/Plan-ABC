@@ -3,12 +3,17 @@
   "version": "0.0.0",
   "sideEffects": false,
   "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "style": "./dist/index.css",
   "exports": {
-    "./button": {
-      "types": "./src/button.tsx",
-      "import": "./dist/button.mjs",
-      "require": "./dist/button.js"
-    }
+    ".": {
+      "types": "./src/index.tsx",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./*": "./*"
   },
   "scripts": {
     "build": "tsup",
@@ -18,14 +23,20 @@
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
     "@types/react": "^18.2.61",
     "@types/react-dom": "^18.2.19",
+    "esbuild-plugin-css-modules": "^0.3.0",
     "eslint": "^8.57.0",
-    "@repo/typescript-config": "workspace:*",
     "tsup": "^8.0.2",
     "typescript": "5.5.4"
   },
   "dependencies": {
+    "@radix-ui/primitive": "^1.1.1",
+    "@radix-ui/react-dialog": "^1.1.4",
+    "classnames": "^2.5.1",
+    "i": "^0.3.7",
+    "npm": "^11.0.0",
     "react": "^18.2.0"
   },
   "publishConfig": {
