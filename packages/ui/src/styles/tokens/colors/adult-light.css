@@ -1,0 +1,74 @@
+:root,
+.light,
+.light-theme {
+  --adult-1: #fcfdff;
+  --adult-2: #f5faff;
+  --adult-3: #eaf2ff;
+  --adult-4: #d9eaff;
+  --adult-5: #c8dfff;
+  --adult-6: #b5d2ff;
+  --adult-7: #99bfff;
+  --adult-8: #73a4ff;
+  --adult-9: #003bff;
+  --adult-10: #0021ed;
+  --adult-11: #124df3;
+  /* --adult-12: #0e296f; */
+  --adult-12: #fcfdff;
+
+  --adult-a1: #0055ff03;
+  --adult-a2: #0080ff0a;
+  --adult-a3: #0062ff15;
+  --adult-a4: #0073ff26;
+  --adult-a5: #006bff37;
+  --adult-a6: #0164ff4a;
+  --adult-a7: #005fff66;
+  --adult-a8: #005aff8c;
+  --adult-a9: #003bff;
+  --adult-a10: #0021ed;
+  --adult-a11: #0040f2ed;
+  --adult-a12: #001d67f1;
+
+  --adult-contrast: #ffffff;
+  --adult-surface: #f3f9ffcc;
+  --adult-indicator: #003bff;
+  --adult-track: #003bff;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+  @media (color-gamut: p3) {
+    :root,
+    .light,
+    .light-theme {
+      --adult-1: oklch(99.4% 0.0022 264);
+      --adult-2: oklch(98.3% 0.0117 264);
+      --adult-3: oklch(96.1% 0.0251 264);
+      --adult-4: oklch(93.5% 0.0495 264);
+      --adult-5: oklch(90.3% 0.0748 264);
+      --adult-6: oklch(86.3% 0.1045 264);
+      --adult-7: oklch(80.7% 0.1271 264);
+      --adult-8: oklch(73% 0.1658 264);
+      --adult-9: oklch(49.4% 0.2847 264);
+      --adult-10: oklch(44.4% 0.2847 264);
+      --adult-11: oklch(51% 0.2529 264);
+      --adult-12: oklch(31.3% 0.1252 264);
+
+      --adult-a1: color(display-p3 0.0235 0.349 1 / 0.012);
+      --adult-a2: color(display-p3 0.0235 0.4588 0.8941 / 0.036);
+      --adult-a3: color(display-p3 0.0078 0.3569 0.9529 / 0.079);
+      --adult-a4: color(display-p3 0.0078 0.3765 0.9451 / 0.138);
+      --adult-a5: color(display-p3 0 0.3529 0.9412 / 0.2);
+      --adult-a6: color(display-p3 0.0039 0.3255 0.9451 / 0.267);
+      --adult-a7: color(display-p3 0.0039 0.3098 0.949 / 0.369);
+      --adult-a8: color(display-p3 0 0.2902 0.949 / 0.506);
+      --adult-a9: color(display-p3 0 0.1529 0.9569 / 0.914);
+      --adult-a10: color(display-p3 0 0.0941 0.8902 / 0.965);
+      --adult-a11: color(display-p3 0 0.1804 0.902 / 0.855);
+      --adult-a12: color(display-p3 0 0.0824 0.3686 / 0.918);
+
+      --adult-contrast: #fff;
+      --adult-surface: color(display-p3 0.9569 0.9725 1 / 0.8);
+      --adult-indicator: oklch(49.4% 0.2847 264);
+      --adult-track: oklch(49.4% 0.2847 264);
+    }
+  }
+}

@@ -1,0 +1,38 @@
+/* * * * * * * * * * * * * * * * * * * */
+/*                                     */
+/*            Accent color             */
+/*                                     */
+/* * * * * * * * * * * * * * * * * * * */
+/* add a adult color */
+[data-accent-color="adult"] {
+  --accent-1: var(--adult-1);
+  --accent-2: var(--adult-2);
+  --accent-3: var(--adult-3);
+  --accent-4: var(--adult-4);
+  --accent-5: var(--adult-5);
+  --accent-6: var(--adult-6);
+  --accent-7: var(--adult-7);
+  --accent-8: var(--adult-8);
+  --accent-9: var(--adult-9);
+  --accent-10: var(--adult-10);
+  --accent-11: var(--adult-11);
+  --accent-12: var(--adult-12);
+
+  --accent-a1: var(--adult-a1);
+  --accent-a2: var(--adult-a2);
+  --accent-a3: var(--adult-a3);
+  --accent-a4: var(--adult-a4);
+  --accent-a5: var(--adult-a5);
+  --accent-a6: var(--adult-a6);
+  --accent-a7: var(--adult-a7);
+  --accent-a8: var(--adult-a8);
+  --accent-a9: var(--adult-a9);
+  --accent-a10: var(--adult-a10);
+  --accent-a11: var(--adult-a11);
+  --accent-a12: var(--adult-a12);
+
+  --accent-contrast: var(--adult-contrast);
+  --accent-surface: var(--adult-surface);
+  --accent-indicator: var(--adult-indicator);
+  --accent-track: var(--adult-track);
+}

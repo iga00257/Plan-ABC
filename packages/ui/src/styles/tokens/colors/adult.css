@@ -1,0 +1,31 @@
+@import './adult-light.css';
+@import './adult-alpha.css';
+
+:root {
+  --adult-contrast: white;
+}
+
+:root,
+.light,
+.light-theme {
+  --adult-surface: #f1f9ffcc;
+  --adult-indicator: var(--adult-9);
+  --adult-track: var(--adult-9);
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      --adult-surface: color(display-p3 0.9529 0.9765 0.9961 / 0.8);
+    }
+  }
+}
+
+.dark,
+.dark-theme {
+  --adult-surface: #11213d80;
+  --adult-indicator: var(--adult-9);
+  --adult-track: var(--adult-9);
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      --adult-surface: color(display-p3 0.0706 0.1255 0.2196 / 0.5);
+    }
+  }
+}
