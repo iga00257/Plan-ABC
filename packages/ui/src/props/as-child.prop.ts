@@ -1,4 +1,4 @@
-import type { PropDef } from './prop-def.js';
+import type { PropDef } from './prop-def.js'
 
 const asChildPropDef = {
   /**
@@ -9,7 +9,7 @@ const asChildPropDef = {
     type: 'boolean',
   },
 } satisfies {
-  asChild: PropDef<boolean>;
-};
+  asChild: PropDef<boolean>
+}
 
-export { asChildPropDef };
+export { asChildPropDef }
