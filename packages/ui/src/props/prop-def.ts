@@ -4,7 +4,7 @@ import type React from 'react'
 // Union<string, 'foo' | 'bar'> => string | Omit<string, 'foo' | 'bar'>
 type Union<S = string, T extends string | number = string> = T | Omit<S, T>
 
-const breakpoints = ['initial', 'xs', 'sm', 'md', 'lg', 'xl'] as const
+const breakpoints = ['initial', 'sm', 'md', 'lg', 'xl'] as const
 type Breakpoint = (typeof breakpoints)[number]
 type Responsive<T> = T | Partial<Record<Breakpoint, T>>
 
