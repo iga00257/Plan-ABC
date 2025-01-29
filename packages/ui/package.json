@@ -18,7 +18,7 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch & pnpm dev:css ",
-    "dev:css": "postcss src/styles/index.css -o ./dist/index.css --watch",
+    "dev:css": "postcss src/index.css -o ./dist/index.css --watch",
     "lint": "eslint . --max-warnings 0",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
