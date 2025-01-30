@@ -1,6 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { Button } from '@acme/ui'
-import '@acme/ui/dist/index.css'
 import '@acme/ui/dist/styles/index.css'
 
 const meta: Meta<typeof Button> = {
