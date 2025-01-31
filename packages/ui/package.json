@@ -34,6 +34,7 @@
   "dependencies": {
     "@radix-ui/primitive": "^1.1.1",
     "@radix-ui/react-dialog": "^1.1.4",
+    "@radix-ui/react-slot": "^1.1.1",
     "classnames": "^2.5.1",
     "i": "^0.3.7",
     "npm": "^11.0.0",
