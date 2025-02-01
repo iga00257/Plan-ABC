@@ -2,12 +2,6 @@
   grid-area: var(--grid-area);
 }
 
-@media (--xs) {
-  .xs\:rt-r-ga {
-    grid-area: var(--grid-area-xs);
-  }
-}
-
 @media (--sm) {
   .sm\:rt-r-ga {
     grid-area: var(--grid-area-sm);

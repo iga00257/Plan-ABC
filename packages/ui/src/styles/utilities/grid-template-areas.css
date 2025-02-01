@@ -2,12 +2,6 @@
   grid-template-areas: var(--grid-template-areas);
 }
 
-@media (--xs) {
-  .xs\:rt-r-gta {
-    grid-template-areas: var(--grid-template-areas-xs);
-  }
-}
-
 @media (--sm) {
   .sm\:rt-r-gta {
     grid-template-areas: var(--grid-template-areas-sm);

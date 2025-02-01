@@ -54,11 +54,6 @@
   padding: var(--p);
 }
 
-@media (--xs) {
-  .xs\:rt-r-p {
-    padding: var(--p-xs);
-  }
-}
 
 @media (--sm) {
   .sm\:rt-r-p {
@@ -149,13 +144,6 @@
 .rt-r-px {
   padding-left: var(--pl);
   padding-right: var(--pr);
-}
-
-@media (--xs) {
-  .xs\:rt-r-px {
-    padding-left: var(--pl-xs);
-    padding-right: var(--pr-xs);
-  }
 }
 
 @media (--sm) {
@@ -255,12 +243,6 @@
   padding-bottom: var(--pb);
 }
 
-@media (--xs) {
-  .xs\:rt-r-py {
-    padding-top: var(--pt-xs);
-    padding-bottom: var(--pb-xs);
-  }
-}
 
 @media (--sm) {
   .sm\:rt-r-py {
@@ -346,12 +328,6 @@
   padding-top: var(--pt);
 }
 
-@media (--xs) {
-  .xs\:rt-r-pt {
-    padding-top: var(--pt-xs);
-  }
-}
-
 @media (--sm) {
   .sm\:rt-r-pt {
     padding-top: var(--pt-sm);
@@ -432,11 +408,6 @@
   padding-right: var(--pr);
 }
 
-@media (--xs) {
-  .xs\:rt-r-pr {
-    padding-right: var(--pr-xs);
-  }
-}
 
 @media (--sm) {
   .sm\:rt-r-pr {
@@ -518,11 +489,7 @@
   padding-bottom: var(--pb);
 }
 
-@media (--xs) {
-  .xs\:rt-r-pb {
-    padding-bottom: var(--pb-xs);
-  }
-}
+
 
 @media (--sm) {
   .sm\:rt-r-pb {
@@ -604,11 +571,7 @@
   padding-left: var(--pl);
 }
 
-@media (--xs) {
-  .xs\:rt-r-pl {
-    padding-left: var(--pl-xs);
-  }
-}
+
 
 @media (--sm) {
   .sm\:rt-r-pl {
