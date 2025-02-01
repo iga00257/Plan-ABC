@@ -1,6 +1,6 @@
-import type { PropDef } from './prop-def.js';
+import type { PropDef } from './prop-def.js'
 
-const gapValues = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'] as const;
+const gapValues = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'] as const
 
 const gapPropDefs = {
   /**
@@ -61,9 +61,9 @@ const gapPropDefs = {
     responsive: true,
   },
 } satisfies {
-  gap: PropDef<(typeof gapValues)[number]>;
-  gapX: PropDef<(typeof gapValues)[number]>;
-  gapY: PropDef<(typeof gapValues)[number]>;
-};
+  gap: PropDef<(typeof gapValues)[number]>
+  gapX: PropDef<(typeof gapValues)[number]>
+  gapY: PropDef<(typeof gapValues)[number]>
+}
 
-export { gapPropDefs };
+export { gapPropDefs }
